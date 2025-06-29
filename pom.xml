@@ -10,7 +10,7 @@
     </parent>
     <groupId>top.tasaed.slbot</groupId>
     <artifactId>server-lab</artifactId>
-    <version>2.0.0</version>
+    <version>2.0.1</version>
     <name>server-lab-bot</name>
     <description>
         云湖Server Lab机器人。

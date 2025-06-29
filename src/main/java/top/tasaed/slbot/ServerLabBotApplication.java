@@ -84,7 +84,7 @@ public class ServerLabBotApplication {
     /**
      * 机器人版本
      */
-    public static final String botVersion = "2.0.0";
+    public static final String botVersion = "2.0.1";
 
     /**
      * 获取当前目录的文件名
@@ -291,7 +291,8 @@ public class ServerLabBotApplication {
                         try {
                             if (success) {
                                 readme = Files.readString(ServerLabBotApplication.currentDirectory("getPlayers.md"));
-                                result = readme.replace("&players;", filteredServers);
+                                result = readme.replace("&players;", filteredServers)
+                                        .replace("null","服务器关闭");
                             } else {
                                 readme = Files.readString(ServerLabBotApplication.currentDirectory("getErr.md"));
                                 result = readme.replace("&err;", filteredServers);
