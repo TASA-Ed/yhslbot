@@ -4,6 +4,15 @@ Server Lab Bot 是由 [TASA-Ed 工作室](https://www.tasaed.top/)制作的一�
 
 本机器人基于 [云湖Java SDK](https://github.com/daenmax/yhchat-sdk-core) 。
 
+## 使用
+
+访问链接使用云湖机器人【Server Lab Bot】
+https://yhfx.jwznb.com/share?key=kVe41hMFx1mP&ts=1750498714
+
+机器人ID: 68303469
+
+![sy](https://raw.githubusercontent.com/TASA-Ed/yhslbot/refs/heads/master/.github/image%20(2).png)
+
 ## 贡献指南
 
 1. 安装 JDK 17
